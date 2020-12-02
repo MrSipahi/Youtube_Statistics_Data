@@ -1,8 +1,8 @@
 
-import urllib #importing to use its urlencode function
-import urllib3 #for making http requests
+import urllib 
+import urllib3 
 import requests
-import json #for decoding a JSON response
+import json 
 from datetime import datetime
 import locale
 import pymysql as MySQLdb
