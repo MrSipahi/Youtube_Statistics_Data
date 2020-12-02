@@ -1,24 +1,23 @@
 # What is it ?
 
   
-This code adds the current statistics data of the videos to the 'data' table in the database.
+This program add timely statistics data for the 'data' table in the database.
 
 ![enter image description here](https://raw.githubusercontent.com/MrSipahi/Youtube_Statistics_Data/main/photo/data.PNG)
 
 # How does it work
 
   
-To use the Youtube Data API service, you need to get an API_Key. You can get it from the address below.
-
- - [Console Cloud Google](https://console.cloud.google.com/)
+İf you use this program, you must be take Youtube Data API. Take this here; [Console Cloud Google](https://console.cloud.google.com/).
 
 
-For this code to work, there must be a table named 'videolist' in the database. Retrieves the 'video_ID' data from this table. 
+
+If you will use this program, there must be a table named 'videoliste' because this program must take 'video_ID' data so, you must add 'videoliste'
 
 ![enter image description here](https://github.com/MrSipahi/Youtube_Statistics_Data/blob/main/photo/video_list.PNG?raw=true)
 
 
-The url we use to access statistical data:
+If you want reach static data, use this link:
  
     https://www.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=VIDEO_ID&key=API_KEY
    
